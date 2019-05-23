@@ -1549,7 +1549,7 @@ clean: five_wheeler/CMakeFiles/actionlib_generate_messages_eus.dir/clean
 five_wheeler/CMakeFiles/speed_pub.dir/all:
 	$(MAKE) -f five_wheeler/CMakeFiles/speed_pub.dir/build.make five_wheeler/CMakeFiles/speed_pub.dir/depend
 	$(MAKE) -f five_wheeler/CMakeFiles/speed_pub.dir/build.make five_wheeler/CMakeFiles/speed_pub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rt-user/rtech_exam/build/CMakeFiles --progress-num= "Built target speed_pub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rt-user/rtech_exam/build/CMakeFiles --progress-num=14,15 "Built target speed_pub"
 .PHONY : five_wheeler/CMakeFiles/speed_pub.dir/all
 
 # Include target in all.
@@ -1559,7 +1559,7 @@ all: five_wheeler/CMakeFiles/speed_pub.dir/all
 
 # Build rule for subdir invocation for target.
 five_wheeler/CMakeFiles/speed_pub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rt-user/rtech_exam/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rt-user/rtech_exam/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 five_wheeler/CMakeFiles/speed_pub.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rt-user/rtech_exam/build/CMakeFiles 0
 .PHONY : five_wheeler/CMakeFiles/speed_pub.dir/rule

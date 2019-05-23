@@ -1,0 +1,8 @@
+<launch>
+    <param name="robot_description" command="$(find xacro)/xacro.py '$(find five_wheeler)/urdf/r2d2.xacro'"/>
+    <node name ="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher"/>
+    <node name ="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+    <node name ="rviz" pkg="rviz" type="rviz" args= "-d $(find five_wheeler)/config/r2d2.rviz"/>
+    <node name ="fake_r2d2_controller" pkg="r2d2_navigator" type="fake_r2d2_controller"/>
+    <node name ="speed_pub" pkg="five_wheeler" type="speed_pub"/>
+</launch>

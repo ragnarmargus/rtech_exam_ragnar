@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(my_r2d2)
+project(five_wheeler)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -33,9 +33,10 @@ include_directories(
 )
 
 
+
 ## Declare a C++ executable
 ## Add cmake target dependencies of the executable
 ## Add cmake target dependencies of the executable
 
-add_executable(speed_pub src/fake_r2d2_controller.cpp)
+add_executable(speed_pub src/speed_publisher.cpp)
 target_link_libraries(speed_pub ${catkin_LIBRARIES})

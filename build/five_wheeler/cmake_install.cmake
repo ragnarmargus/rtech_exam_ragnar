@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rt-user/rtech_exam/build/five_wheeler/catkin_generated/installspace/my_r2d2.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rt-user/rtech_exam/build/five_wheeler/catkin_generated/installspace/five_wheeler.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_r2d2/cmake" TYPE FILE FILES
-    "/home/rt-user/rtech_exam/build/five_wheeler/catkin_generated/installspace/my_r2d2Config.cmake"
-    "/home/rt-user/rtech_exam/build/five_wheeler/catkin_generated/installspace/my_r2d2Config-version.cmake"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/five_wheeler/cmake" TYPE FILE FILES
+    "/home/rt-user/rtech_exam/build/five_wheeler/catkin_generated/installspace/five_wheelerConfig.cmake"
+    "/home/rt-user/rtech_exam/build/five_wheeler/catkin_generated/installspace/five_wheelerConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_r2d2" TYPE FILE FILES "/home/rt-user/rtech_exam/src/five_wheeler/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/five_wheeler" TYPE FILE FILES "/home/rt-user/rtech_exam/src/five_wheeler/package.xml")
 endif()
 

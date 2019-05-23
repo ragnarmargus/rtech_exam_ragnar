@@ -1,0 +1,8 @@
+prefix=/home/rt-user/rtech_exam/install
+
+Name: five_wheeler
+Description: Description of five_wheeler
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rt-user/rtech_exam/install/lib 
+Requires: 

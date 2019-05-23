@@ -57,7 +57,73 @@ include five_wheeler/CMakeFiles/speed_pub.dir/progress.make
 # Include the compile flags for this target's objects.
 include five_wheeler/CMakeFiles/speed_pub.dir/flags.make
 
-five_wheeler/CMakeFiles/speed_pub.dir/requires:
+five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o: five_wheeler/CMakeFiles/speed_pub.dir/flags.make
+five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o: /home/rt-user/rtech_exam/src/five_wheeler/src/speed_publisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rt-user/rtech_exam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o"
+	cd /home/rt-user/rtech_exam/build/five_wheeler && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o -c /home/rt-user/rtech_exam/src/five_wheeler/src/speed_publisher.cpp
+
+five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.i"
+	cd /home/rt-user/rtech_exam/build/five_wheeler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rt-user/rtech_exam/src/five_wheeler/src/speed_publisher.cpp > CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.i
+
+five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.s"
+	cd /home/rt-user/rtech_exam/build/five_wheeler && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rt-user/rtech_exam/src/five_wheeler/src/speed_publisher.cpp -o CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.s
+
+five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o.requires:
+
+.PHONY : five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o.requires
+
+five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o.provides: five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o.requires
+	$(MAKE) -f five_wheeler/CMakeFiles/speed_pub.dir/build.make five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o.provides.build
+.PHONY : five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o.provides
+
+five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o.provides.build: five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o
+
+
+# Object files for target speed_pub
+speed_pub_OBJECTS = \
+"CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o"
+
+# External object files for target speed_pub
+speed_pub_EXTERNAL_OBJECTS =
+
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: five_wheeler/CMakeFiles/speed_pub.dir/build.make
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/libtf.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/libactionlib.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/libroscpp.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/libtf2.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/librosconsole.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/librostime.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /opt/ros/kinetic/lib/libcpp_common.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub: five_wheeler/CMakeFiles/speed_pub.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rt-user/rtech_exam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub"
+	cd /home/rt-user/rtech_exam/build/five_wheeler && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/speed_pub.dir/link.txt --verbose=$(VERBOSE)
+
+# Rule to build all files generated by this target.
+five_wheeler/CMakeFiles/speed_pub.dir/build: /home/rt-user/rtech_exam/devel/lib/five_wheeler/speed_pub
+
+.PHONY : five_wheeler/CMakeFiles/speed_pub.dir/build
+
+five_wheeler/CMakeFiles/speed_pub.dir/requires: five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o.requires
 
 .PHONY : five_wheeler/CMakeFiles/speed_pub.dir/requires
 

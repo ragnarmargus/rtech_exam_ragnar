@@ -8,9 +8,6 @@ Panels:
         - /Status1
         - /RobotModel1
         - /TF1
-        - /Marker1
-        - /Range1
-        - /Range2
       Splitter Ratio: 0.5
     Tree Height: 547
   - Class: rviz/Selection
@@ -72,7 +69,12 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        head:
+        extra:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        extra_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -132,7 +134,9 @@ Visualization Manager:
           Value: true
         base_link:
           Value: true
-        head:
+        extra:
+          Value: true
+        extra_wheel:
           Value: true
         left_back_wheel:
           Value: true
@@ -141,6 +145,8 @@ Visualization Manager:
         left_front_wheel:
           Value: true
         left_leg:
+          Value: true
+        odom:
           Value: true
         right_back_wheel:
           Value: true
@@ -156,22 +162,24 @@ Visualization Manager:
       Show Axes: true
       Show Names: true
       Tree:
-        base_footprint:
-          base_link:
-            head:
-              {}
-            left_leg:
-              left_base:
-                left_back_wheel:
+        odom:
+          base_footprint:
+            base_link:
+              extra:
+                extra_wheel:
                   {}
-                left_front_wheel:
-                  {}
-            right_leg:
-              right_base:
-                right_back_wheel:
-                  {}
-                right_front_wheel:
-                  {}
+              left_leg:
+                left_base:
+                  left_back_wheel:
+                    {}
+                  left_front_wheel:
+                    {}
+              right_leg:
+                right_base:
+                  right_back_wheel:
+                    {}
+                  right_front_wheel:
+                    {}
       Update Interval: 0
       Value: true
     - Class: rviz/Image
@@ -186,39 +194,11 @@ Visualization Manager:
       Transport Hint: raw
       Unreliable: false
       Value: false
-    - Class: rviz/Marker
-      Enabled: true
-      Marker Topic: visualization_marker
-      Name: Marker
-      Namespaces:
-        {}
-      Queue Size: 100
-      Value: true
-    - Alpha: 0.5
-      Buffer Length: 1
-      Class: rviz/Range
-      Color: 255; 0; 255
-      Enabled: true
-      Name: Range
-      Queue Size: 100
-      Topic: /ultrasound/filtered
-      Unreliable: false
-      Value: true
-    - Alpha: 0.5
-      Buffer Length: 1
-      Class: rviz/Range
-      Color: 255; 255; 0
-      Enabled: true
-      Name: Range
-      Queue Size: 100
-      Topic: /ultrasound/raw
-      Unreliable: false
-      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: base_footprint
+    Fixed Frame: odom
     Frame Rate: 30
   Name: root
   Tools:
@@ -239,25 +219,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 1.56817114
+      Distance: 1.99045515
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.208378568
-        Y: -0.291322529
-        Z: 0.31878981
+        X: -0.0239008944
+        Y: -0.254495621
+        Z: 0.207306504
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.505397737
+      Pitch: 0.155397743
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.508584678
+      Yaw: 1.80858433
     Saved: ~
 Window Geometry:
   Displays:

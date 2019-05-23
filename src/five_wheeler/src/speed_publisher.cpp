@@ -7,7 +7,7 @@
 //Create a publisher
 ros::Publisher pub_speed;
 //Create a velocity class element
-geometry_msgs::Twist velocity	
+geometry_msgs::Twist velocity;	
 
 int main(int argc, char **argv)
 {
@@ -16,11 +16,11 @@ int main(int argc, char **argv)
 	ros::NodeHandle nh;
 	
 	//Advertise the message on the topic
-	pub_speed = nh.advertise<sensor_msgs::Range>("/cmd_vel", 1000); //Create a publisher
+	pub_speed = nh.advertise<geometry_msgs::Twist>("/cmd_vel", 1000); //Create a publisher
 	
 	ros::Rate loop_rate(1); //Running rate of the loop in Hz
 
-	velocity.linear.x = 0.4; //Set the "Constant speed"
+	velocity.linear.x = 1; //Set the "Constant speed"
 
 	while(ros::ok())
 	{	

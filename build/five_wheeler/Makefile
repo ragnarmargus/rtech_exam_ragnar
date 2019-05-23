@@ -930,6 +930,33 @@ actionlib_generate_messages_nodejs/fast:
 	cd /home/rt-user/rtech_exam/build && $(MAKE) -f five_wheeler/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make five_wheeler/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
 
+src/speed_publisher.o: src/speed_publisher.cpp.o
+
+.PHONY : src/speed_publisher.o
+
+# target to build an object file
+src/speed_publisher.cpp.o:
+	cd /home/rt-user/rtech_exam/build && $(MAKE) -f five_wheeler/CMakeFiles/speed_pub.dir/build.make five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o
+.PHONY : src/speed_publisher.cpp.o
+
+src/speed_publisher.i: src/speed_publisher.cpp.i
+
+.PHONY : src/speed_publisher.i
+
+# target to preprocess a source file
+src/speed_publisher.cpp.i:
+	cd /home/rt-user/rtech_exam/build && $(MAKE) -f five_wheeler/CMakeFiles/speed_pub.dir/build.make five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.i
+.PHONY : src/speed_publisher.cpp.i
+
+src/speed_publisher.s: src/speed_publisher.cpp.s
+
+.PHONY : src/speed_publisher.s
+
+# target to generate assembly for a file
+src/speed_publisher.cpp.s:
+	cd /home/rt-user/rtech_exam/build && $(MAKE) -f five_wheeler/CMakeFiles/speed_pub.dir/build.make five_wheeler/CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.s
+.PHONY : src/speed_publisher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -994,6 +1021,9 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... actionlib_generate_messages_nodejs"
+	@echo "... src/speed_publisher.o"
+	@echo "... src/speed_publisher.i"
+	@echo "... src/speed_publisher.s"
 .PHONY : help
 
 
