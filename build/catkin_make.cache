@@ -1,0 +1,2 @@
+five_wheeler:r2d2_navigator
+-DCATKIN_DEVEL_PREFIX=/home/rt-user/rtech_exam/devel -DCMAKE_INSTALL_PREFIX=/home/rt-user/rtech_exam/install -G Unix Makefiles
